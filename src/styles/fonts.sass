@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Raleway&display=swap')
+
+.prime-font, h1, h2, h3
+    font-family: 'Paytone One', sans-serif
+
+.secondary-font, a, p, h4, h5, button
+    font-family: 'Raleway', sans-serif
+p
+    margin-bottom: 0
+
+.text-silver
+    background: $bg-silver
+    background-clip: text
+    color: transparent
+
+.text-ocean
+    background: $bg-ocean
+    background-clip: text
+    color: transparent
+
+.underline-border-left::after
+        content: ""
+        width: 5%
+        height: 3px
+        background-color: rgba($fg-on-dark-bg ,1)
+        left: 0
+        position: relative
+        display: block
+        top: 10px
+        @media screen and (max-width: $layout-breakpoint-medium)
+            width: 25%
+        
+.text-overflow-ellipsis
+        overflow: hidden
+        text-overflow: ellipsis

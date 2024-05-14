@@ -1,0 +1,28 @@
+{
+"social-media": [
+{
+    "source":"github",
+    "url":""
+},
+{
+    "source":"linkedin",
+    "url":""
+},
+{
+    "source":"facebook",
+    "url":""
+},
+{
+    "source":"instagram",
+    "url":""
+}],
+"contact": [
+{
+    "source":"phone",
+    "contact":"+1 (236)-333-2729"
+},
+{
+    "source":"email",
+    "contact":"quachgioithanh@gmail.com"
+}]
+}

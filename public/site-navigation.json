@@ -1,0 +1,308 @@
+[{
+    "page":"Home",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "dynamic-children": [
+            {
+            "title":"Thanh Quach",
+            "display-type":"logo-title",
+            "direction":"left",
+            "withImg":true,
+            "dynamic-text": [
+                "Applied UI/UX designs",
+                1500,
+                "Build static websites",
+                1500,
+                "Developed back-end API",
+                1500,
+                "Provided hosting solutions",
+                1500,
+                "Not an ordinary tech guy"
+            ],
+            "override-class":"",
+            "override-style":{
+
+            }
+            }
+        ]},
+        {
+        "title": "Feature projects",
+        "dynamic-children": [
+            {
+                "display-type":"feature-card",
+                "feature-page":"Single-page website"
+            },
+            {
+                "display-type":"feature-card",
+                "feature-page":"Multi-page website"
+            },
+            {
+                "display-type":"feature-card",
+                "feature-page":"Full-stack web app"
+            }]
+        },
+        {
+        "title": "Services",
+        "dynamic-children": [
+            {
+                "display-type":"text",
+                "title":"UX consulting"
+            },
+            {
+                "display-type":"text",
+                "title":"Graphic design"
+            },
+            {
+                "display-type":"text",
+                "title":"Full-stack development"
+            },
+            {
+                "display-type":"text",
+                "title":"IT deployment"
+            }
+        ]
+        }
+    ]},
+    {
+    "page":"Projects",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "override-class":"",
+        "override-style":{
+            "height":"40vh"
+        },
+        "dynamic-children": [
+            {
+                "title":"What I have done",
+                "display-type":"banner"
+            }
+        ]},
+        {
+        "title": "Project catalogues",
+        "withFilter": true,
+        "dynamic-children": [
+            {
+                "display-type":"catalogue",
+                "feature-page":"Single-page website"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"Multi-page website"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"Full-stack web app"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"Book cover design"
+            }
+        ]}]
+    },
+    {
+    "page":"About",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "override-style-mobile":{
+            "height":"auto"
+        },
+        "dynamic-children": [
+            {
+                "title":"Whass'up",
+                "display-type":"description-card",
+                "withImg":true,
+                "markdown":true
+            }
+        ]}
+    ]
+    },
+    {
+    "page":"Single-page website",
+    "project": true,
+    "category":"development",
+    "demoUrl":"https://google.com",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "override-class":"",
+        "override-style":{
+            "height":"40vh"
+        },
+        "dynamic-children": [
+            {
+                "title":"Single-page website",
+                "display-type":"banner"
+            }
+        ]},
+        {
+            "title": "Introduction",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                }
+            ]
+        },
+        {
+            "title": "Process",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                }
+            ]
+        }
+    ]
+    },
+    {
+    "page":"Full-stack web app",
+    "project": true,
+    "category":"design",
+    "demoUrl":"https://google.com",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "override-class":"",
+        "override-style":{
+            "height":"40vh"
+        },
+        "dynamic-children": [
+            {
+                "title":"Full-stack web app",
+                "display-type":"banner"
+            }
+        ]
+        },
+        {
+            "title": "Introduction",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                }
+            ]
+        }
+    ]
+    },
+    {
+    "page":"Multi-page website",
+    "project": true,
+    "category":"Others",
+    "demoUrl":"https://google.com",
+    "dynamic-children": [
+        {
+        "title": "Header",
+        "override-class":"",
+        "override-style":{
+            "height":"40vh"
+        },
+        "dynamic-children": [
+            {
+                "title":"Multi-page website",
+                "display-type":"banner"
+            }
+        ]},
+        {
+            "title": "Introduction",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"All-in-one page",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                }
+            ]
+        }
+    ]
+    },
+    {
+        "page":"Book cover design",
+        "project": true,
+        "category":"design",
+        "demoUrl":"https://google.com",
+        "dynamic-children": [
+            {
+            "title": "Header",
+            "override-class":"",
+            "override-style":{
+                "height":"40vh"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Book cover design",
+                    "display-type":"banner"
+                }
+            ]},
+            {
+                "title": "Introduction",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "withImg":true,
+                        "markdown":true
+                    },
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "direction":"right",
+                        "withImg":true,
+                        "markdown":true
+                    }
+                ]
+            }
+        ]
+        }
+]
