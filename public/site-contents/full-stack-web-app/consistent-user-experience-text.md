@@ -1,0 +1,2 @@
+#### Consistent User Experience
+Full-stack development promotes consistency in user experience by ensuring that the frontend and backend components work seamlessly together, resulting in a cohesive user interface and smooth interactions.

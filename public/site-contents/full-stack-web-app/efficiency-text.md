@@ -1,0 +1,2 @@
+#### Efficiency
+Full-stack developers can work on all aspects of the application, reducing the need for coordination between separate frontend and backend teams. This can result in faster development cycles and quicker time-to-market.

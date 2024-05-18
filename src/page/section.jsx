@@ -8,6 +8,7 @@ import TextContainer from '../local-components/textContainer';
 import DescriptionCard from '../local-components/descriptionCard';
 import Banner from '../local-components/banner';
 import Catalogue from '../local-components/catalogue';
+import ProgressTracker from '../local-components/progress-tracker';
 import { isMobile } from 'react-device-detect';
 
 export default function Index (props) {
@@ -60,7 +61,9 @@ return(
         :
         title&&<h3 className='text-white underline-border-left mb-4 ms-5'>{title}</h3>
         }
-        <div className='row h-100 m-0'>
+        <div className='row m-0'
+        style={{height: '90%'}}
+        >
             {children.map((section, index)=>
                 <React.Fragment key={index}>
                     {{
@@ -114,6 +117,16 @@ return(
                         key={index}
                         section={section}
                         page={page}
+                        stringSpaceToDash={stringSpaceToDash}
+                    />,                    
+                    'progress-tracker':
+                    <ProgressTracker
+                        key={index}
+                        total={children.length}
+                        index={index}
+                        section={section}
+                        page={page}
+                        title={title}
                         stringSpaceToDash={stringSpaceToDash}
                     />,
                     }[section['display-type']]}

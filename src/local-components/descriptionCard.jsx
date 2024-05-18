@@ -24,7 +24,7 @@ export default function Index (props) {
             <div className={{
                     'right':!isMobile&&'order-2'
                 }[section.direction] +
-                " col-xxl-5 col-xl-4 col-md-12 h-100 p-0 overflow-hidden d-flex justify-content-center align-items-center position-relative "
+                " col-xl-5 col-md-12 h-100 p-0 overflow-hidden d-flex justify-content-center align-items-center position-relative "
                 }>
                 <Image 
                     className={(!isMobile&&"position-absolute")+" w-100"}

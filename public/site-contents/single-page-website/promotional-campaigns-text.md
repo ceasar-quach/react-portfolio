@@ -1,0 +1,2 @@
+#### Promotional Campaigns
+Single-page websites are commonly used for short-term promotional campaigns or events. They can effectively convey a focused message and call-to-action without overwhelming visitors with too much information.

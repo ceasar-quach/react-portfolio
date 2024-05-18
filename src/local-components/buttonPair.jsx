@@ -7,11 +7,12 @@ const {
     localUrl,
     localLabel,
     demoUrl,
-    shortcutButton
+    shortcutButton,
+    zIndex
 } = props
 
 return(
-    <div className="col-auto bg-dark-matte p-2 rounded-3 drop-shadow transition-ease" style={{zIndex:1031}} ref={shortcutButton} >
+    <div className="col-auto bg-dark-matte p-2 rounded-3 drop-shadow transition-ease" style={{zIndex:zIndex??1031}} ref={shortcutButton} >
         {localUrl&&<Link to={localUrl} className="me-2 link-info">
             {localLabel??"Read description"}
         </Link>}

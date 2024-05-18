@@ -1,0 +1,2 @@
+#### Flexibility
+Full-stack development enables developers to adapt and modify both frontend and backend components as needed, providing flexibility to accommodate changing requirements or user feedback.

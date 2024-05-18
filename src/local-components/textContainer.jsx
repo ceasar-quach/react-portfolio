@@ -6,14 +6,13 @@ export default function Index (props) {
     const {
         id,
         page,
-        title,
         section,
         stringSpaceToDash,
     } = props;
     const [markdownContent, setMarkdownContent] = useState()
     useEffect(()=>{
-        fetch("site-contents/"+page+"/"+title+"/"+stringSpaceToDash(section.title.toLowerCase())+"-text.md").then(res=>res.text()).then(content=>setMarkdownContent(content))
-    },[page, title, section, stringSpaceToDash])
+        fetch("site-contents/"+page+"/"+stringSpaceToDash(section.title.toLowerCase())+"-text.md").then(res=>res.text()).then(content=>setMarkdownContent(content))
+    },[page, section, stringSpaceToDash])
     return (
     <div
         id={id}

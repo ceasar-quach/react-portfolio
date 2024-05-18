@@ -1,0 +1,2 @@
+#### Focus on Key Content
+Single-page websites allow you to focus on highlighting key content or messages without the distraction of navigating between pages. This can be particularly effective for portfolios, landing pages, or promotional websites.

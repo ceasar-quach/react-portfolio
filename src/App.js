@@ -70,7 +70,7 @@ function App() {
   },[])
 
   scrollElement&&scrollElement.addEventListener('scroll', ()=>{
-    if(scrollElement.scrollTop > 100)
+    if(scrollElement.scrollTop > 60)
       {
         scrollTopButton.current.style.display = "block"
         if(shortcutButton.current){

@@ -31,17 +31,17 @@
         "dynamic-children": [
             {
                 "display-type":"feature-card",
-                "feature-page":"Single-page website"
-            },
-            {
-                "display-type":"feature-card",
-                "feature-page":"Multi-page website"
-            },
-            {
-                "display-type":"feature-card",
                 "feature-page":"Full-stack web app"
-            }]
-        },
+            },
+            {
+                "display-type":"feature-card",
+                "feature-page":"E-commerce website"
+            },
+            {
+                "display-type":"feature-card",
+                "feature-page":"UX analysis"
+            }
+        ]},
         {
         "title": "Services",
         "dynamic-children": [
@@ -59,7 +59,7 @@
             },
             {
                 "display-type":"text",
-                "title":"IT deployment"
+                "title":"IT/cloud deployment"
             }
         ]
         }
@@ -75,7 +75,7 @@
         },
         "dynamic-children": [
             {
-                "title":"What I have done",
+                "title":"Hats that I can wear",
                 "display-type":"banner"
             }
         ]},
@@ -89,15 +89,23 @@
             },
             {
                 "display-type":"catalogue",
-                "feature-page":"Multi-page website"
-            },
-            {
-                "display-type":"catalogue",
                 "feature-page":"Full-stack web app"
             },
             {
                 "display-type":"catalogue",
-                "feature-page":"Book cover design"
+                "feature-page":"E-commerce website"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"Printable/Digital Graphics Design"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"Branding and design guideline"
+            },
+            {
+                "display-type":"catalogue",
+                "feature-page":"UX analysis"
             }
         ]}]
     },
@@ -111,18 +119,62 @@
         },
         "dynamic-children": [
             {
-                "title":"Whass'up",
+                "title":"Whass'up! Thanh Quach is here",
                 "display-type":"description-card",
                 "withImg":true,
                 "markdown":true
             }
-        ]}
+        ]},
+        {
+            "title": "Care for my customers",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Listen and understand",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"Consult and consolidate",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"Ideate and iterate",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"Build and commit",
+                    "display-type":"description-card",
+                    "direction":"right",
+                    "withImg":true,
+                    "markdown":true
+                },
+                {
+                    "title":"Support",
+                    "display-type":"description-card",
+                    "withImg":true,
+                    "markdown":true
+                }
+            ]
+        }
     ]
     },
+
+
+
+
     {
     "page":"Single-page website",
     "project": true,
-    "category":"development",
+    "category":"Development",
     "demoUrl":"https://google.com",
     "dynamic-children": [
         {
@@ -138,53 +190,71 @@
             }
         ]},
         {
-            "title": "Introduction",
+            "title": "Intro",
             "override-style":{
                 "height":"auto"
             },
             "dynamic-children": [
                 {
-                    "title":"All-in-one page",
+                    "title":"Definition",
                     "display-type":"description-card",
-                    "withImg":true,
-                    "markdown":true
-                },
-                {
-                    "title":"All-in-one page",
-                    "display-type":"description-card",
-                    "direction":"right",
                     "withImg":true,
                     "markdown":true
                 }
             ]
         },
         {
-            "title": "Process",
+            "title": "Does this meet your needs?",
             "override-style":{
                 "height":"auto"
             },
             "dynamic-children": [
                 {
-                    "title":"All-in-one page",
-                    "display-type":"description-card",
-                    "withImg":true,
-                    "markdown":true
+                    "title":"Simplicity",
+                    "display-type":"text"
                 },
                 {
-                    "title":"All-in-one page",
+                    "title":"Faster Load Times",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Focus on Key Content",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Storytelling or Sequential Content",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Promotional Campaigns",
+                    "display-type":"text"
+                },
+                {
+                    "title":"SEO Friendly",
+                    "display-type":"text"
+                }
+            ]
+        },
+        {
+            "title": "Process milestone",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Definition",
                     "display-type":"description-card",
-                    "direction":"right",
                     "withImg":true,
                     "markdown":true
                 }
             ]
         }
-    ]
+        ]
     },
     {
     "page":"Full-stack web app",
     "project": true,
-    "category":"design",
+    "category":"Development",
     "demoUrl":"https://google.com",
     "dynamic-children": [
         {
@@ -198,76 +268,97 @@
                 "title":"Full-stack web app",
                 "display-type":"banner"
             }
-        ]
-        },
-        {
-            "title": "Introduction",
-            "override-style":{
-                "height":"auto"
-            },
-            "dynamic-children": [
-                {
-                    "title":"All-in-one page",
-                    "display-type":"description-card",
-                    "withImg":true,
-                    "markdown":true
-                },
-                {
-                    "title":"All-in-one page",
-                    "display-type":"description-card",
-                    "direction":"right",
-                    "withImg":true,
-                    "markdown":true
-                }
-            ]
-        }
-    ]
-    },
-    {
-    "page":"Multi-page website",
-    "project": true,
-    "category":"Others",
-    "demoUrl":"https://google.com",
-    "dynamic-children": [
-        {
-        "title": "Header",
-        "override-class":"",
-        "override-style":{
-            "height":"40vh"
-        },
-        "dynamic-children": [
-            {
-                "title":"Multi-page website",
-                "display-type":"banner"
-            }
         ]},
         {
-            "title": "Introduction",
+            "title": "Intro",
             "override-style":{
                 "height":"auto"
             },
             "dynamic-children": [
                 {
-                    "title":"All-in-one page",
+                    "title":"Definition",
                     "display-type":"description-card",
-                    "withImg":true,
-                    "markdown":true
-                },
-                {
-                    "title":"All-in-one page",
-                    "display-type":"description-card",
-                    "direction":"right",
                     "withImg":true,
                     "markdown":true
                 }
             ]
+        },
+        {
+            "title": "Does this meet your needs?",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"End-to-End Control",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Efficiency",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Flexibility",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Scalability",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Integrated Testing",
+                    "display-type":"text"
+                },
+                {
+                    "title":"Consistent User Experience",
+                    "display-type":"text"
+                }
+            ]
+        },
+        {
+            "title": "Process milestone",
+            "override-style":{
+                "height":"auto"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Pitch",
+                    "milestone":"1",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Agreement",
+                    "milestone":"2",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Design",
+                    "milestone":"3",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Develop",
+                    "milestone":"4",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Hand-off",
+                    "milestone":"5",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                }
+            ]
         }
-    ]
+        ]
     },
     {
-        "page":"Book cover design",
+        "page":"E-commerce website",
         "project": true,
-        "category":"design",
+        "category":"Development",
         "demoUrl":"https://google.com",
         "dynamic-children": [
             {
@@ -278,7 +369,7 @@
             },
             "dynamic-children": [
                 {
-                    "title":"Book cover design",
+                    "title":"E-commerce website",
                     "display-type":"banner"
                 }
             ]},
@@ -304,5 +395,128 @@
                 ]
             }
         ]
-        }
+    },
+    {
+        "page":"Branding and design guideline",
+        "project": true,
+        "category":"design",
+        "demoUrl":"https://google.com",
+        "dynamic-children": [
+            {
+            "title": "Header",
+            "override-class":"",
+            "override-style":{
+                "height":"40vh"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Branding and design guideline",
+                    "display-type":"banner"
+                }
+            ]},
+            {
+                "title": "Introduction",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "withImg":true,
+                        "markdown":true
+                    },
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "direction":"right",
+                        "withImg":true,
+                        "markdown":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "page":"Printable/Digital Graphics Design",
+        "project": true,
+        "category":"design",
+        "demoUrl":"https://google.com",
+        "dynamic-children": [
+            {
+            "title": "Header",
+            "override-class":"",
+            "override-style":{
+                "height":"40vh"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Printable/Digital Graphics Design",
+                    "display-type":"banner"
+                }
+            ]},
+            {
+                "title": "Introduction",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "withImg":true,
+                        "markdown":true
+                    },
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "direction":"right",
+                        "withImg":true,
+                        "markdown":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "page":"UX analysis",
+        "project": true,
+        "category":"design",
+        "demoUrl":"https://google.com",
+        "dynamic-children": [
+            {
+            "title": "Header",
+            "override-class":"",
+            "override-style":{
+                "height":"40vh"
+            },
+            "dynamic-children": [
+                {
+                    "title":"Printable/Digital Graphics Design",
+                    "display-type":"banner"
+                }
+            ]},
+            {
+                "title": "Introduction",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "withImg":true,
+                        "markdown":true
+                    },
+                    {
+                        "title":"All-in-one page",
+                        "display-type":"description-card",
+                        "direction":"right",
+                        "withImg":true,
+                        "markdown":true
+                    }
+                ]
+            }
+        ]
+    }
 ]
