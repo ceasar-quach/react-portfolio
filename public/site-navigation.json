@@ -35,7 +35,7 @@
             },
             {
                 "display-type":"feature-card",
-                "feature-page":"E-commerce website"
+                "feature-page":"Online store"
             },
             {
                 "display-type":"feature-card",
@@ -93,7 +93,7 @@
             },
             {
                 "display-type":"catalogue",
-                "feature-page":"E-commerce website"
+                "feature-page":"Online store"
             },
             {
                 "display-type":"catalogue",
@@ -242,10 +242,22 @@
             },
             "dynamic-children": [
                 {
-                    "title":"Definition",
-                    "display-type":"description-card",
-                    "withImg":true,
-                    "markdown":true
+                    "title":"Conceptualize and contract",
+                    "milestone":"1",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Build and iterate",
+                    "milestone":"2",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
+                },
+                {
+                    "title":"Hand-off and support",
+                    "milestone":"3",
+                    "fixedWidth":44,
+                    "display-type":"progress-tracker"
                 }
             ]
         }
@@ -356,7 +368,7 @@
         ]
     },
     {
-        "page":"E-commerce website",
+        "page":"Online store",
         "project": true,
         "category":"Development",
         "demoUrl":"https://google.com",
@@ -369,28 +381,91 @@
             },
             "dynamic-children": [
                 {
-                    "title":"E-commerce website",
+                    "title":"Online store",
                     "display-type":"banner"
                 }
             ]},
             {
-                "title": "Introduction",
+                "title": "Intro",
                 "override-style":{
                     "height":"auto"
                 },
                 "dynamic-children": [
                     {
-                        "title":"All-in-one page",
+                        "title":"Definition",
                         "display-type":"description-card",
                         "withImg":true,
                         "markdown":true
+                    }
+                ]
+            },
+            {
+                "title": "Does this meet your needs?",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Global Reach",
+                        "display-type":"text"
                     },
                     {
-                        "title":"All-in-one page",
-                        "display-type":"description-card",
-                        "direction":"right",
-                        "withImg":true,
-                        "markdown":true
+                        "title":"Convenience",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Data Insights",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Lower Overhead Costs",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Increased Sales Opportunities",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"24/7 Availability",
+                        "display-type":"text"
+                    }
+                ]
+            },
+            {
+                "title": "Process milestone",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Pitch",
+                        "milestone":"1",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Agreement",
+                        "milestone":"2",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Design",
+                        "milestone":"3",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Develop",
+                        "milestone":"4",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Hand-off",
+                        "milestone":"5",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
                     }
                 ]
             }

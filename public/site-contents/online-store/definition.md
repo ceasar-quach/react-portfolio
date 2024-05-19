@@ -1,0 +1,1 @@
+An online store, also known as an e-commerce store, is a digital platform where businesses or individuals sell products or services over the internet. It allows customers to browse products, add them to a virtual shopping cart, and securely complete transactions online.
