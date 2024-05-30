@@ -1,0 +1,1 @@
+Printable graphics are digital images or designs intended for printing on various materials. They include photos, illustrations, logos, typography, infographics, patterns, templates, labels, maps, and artwork, used for decorative, informational, or promotional purposes.

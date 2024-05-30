@@ -531,13 +531,13 @@
                 }
             ]},
             {
-                "title": "Introduction",
+                "title": "Intro",
                 "override-style":{
                     "height":"auto"
                 },
                 "dynamic-children": [
                     {
-                        "title":"All-in-one page",
+                        "title":"Definition",
                         "display-type":"description-card",
                         "withImg":true,
                         "markdown":true
@@ -567,7 +567,7 @@
             },
             "dynamic-children": [
                 {
-                    "title":"Printable/Digital Graphics Design",
+                    "title":"UX analysis",
                     "display-type":"banner"
                 }
             ]},
@@ -578,20 +578,84 @@
                 },
                 "dynamic-children": [
                     {
-                        "title":"All-in-one page",
+                        "title":"Definition",
                         "display-type":"description-card",
-                        "withImg":true,
-                        "markdown":true
-                    },
-                    {
-                        "title":"All-in-one page",
-                        "display-type":"description-card",
-                        "direction":"right",
                         "withImg":true,
                         "markdown":true
                     }
                 ]
+            },
+            {
+                "title": "Does this meet your needs?",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Understanding User Needs",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Identifying Pain Points",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Optimizing Conversion Rates",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Enhancing Satisfaction and Loyalty",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Competitive Advantage",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Reducing Costs",
+                        "display-type":"text"
+                    }
+                ]
+            },
+            {
+                "title": "Process milestone",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Pitch",
+                        "milestone":"1",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Agreement",
+                        "milestone":"2",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Design",
+                        "milestone":"3",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Develop",
+                        "milestone":"4",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Hand-off",
+                        "milestone":"5",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    }
+                ]
             }
+
         ]
     }
 ]

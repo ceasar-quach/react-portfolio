@@ -1,0 +1,1 @@
+UX analysis involves studying how users interact with a product to find ways to improve their experience. It includes methods like surveys and testing to identify what works well and what needs fixing. The goal is to make products more user-friendly and effective.

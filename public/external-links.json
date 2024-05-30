@@ -2,20 +2,25 @@
 "social-media": [
 {
     "source":"github",
-    "url":""
+    "url":"https://github.com/ceasar-quach"
 },
 {
     "source":"linkedin",
-    "url":""
+    "url":"https://www.linkedin.com/in/thanh-quach-871519134/"
 },
 {
     "source":"facebook",
-    "url":""
+    "url":"https://www.facebook.com/ceasar.quach/"
 },
 {
     "source":"instagram",
-    "url":""
-}],
+    "url":"https://www.instagram.com/thanhquach_tech/"
+},
+{
+    "source":"youtube",
+    "url":"https://www.youtube.com/@thanhquach9834"
+}
+],
 "contact": [
 {
     "source":"phone",
