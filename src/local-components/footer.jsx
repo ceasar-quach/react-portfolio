@@ -33,7 +33,7 @@ export default function Index (props) {
                 <Nav className="d-flex justify-content-center">
                     {extSrc['social-media'].map((link, index)=>
                     <Nav.Item key={index}>
-                        <Nav.Link href={link.url}>
+                        <Nav.Link href={link.url} target="_blank">
                             <i className={"link-info fa-brands fa-"+link.source}></i>
                         </Nav.Link>
                     </Nav.Item>

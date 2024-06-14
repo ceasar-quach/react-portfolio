@@ -101,10 +101,6 @@
             },
             {
                 "display-type":"catalogue",
-                "feature-page":"Branding and design guideline"
-            },
-            {
-                "display-type":"catalogue",
                 "feature-page":"UX analysis"
             }
         ]}]
@@ -126,7 +122,7 @@
             }
         ]},
         {
-            "title": "Care for my customers",
+            "title": "Care for my clients",
             "override-style":{
                 "height":"auto"
             },
@@ -267,7 +263,7 @@
     "page":"Full-stack web app",
     "project": true,
     "category":"Development",
-    "demoUrl":"https://google.com",
+    "demoUrl":"https://fullstackapp.thanhquach.tech",
     "dynamic-children": [
         {
         "title": "Header",
@@ -472,47 +468,6 @@
         ]
     },
     {
-        "page":"Branding and design guideline",
-        "project": true,
-        "category":"design",
-        "demoUrl":"https://google.com",
-        "dynamic-children": [
-            {
-            "title": "Header",
-            "override-class":"",
-            "override-style":{
-                "height":"40vh"
-            },
-            "dynamic-children": [
-                {
-                    "title":"Branding and design guideline",
-                    "display-type":"banner"
-                }
-            ]},
-            {
-                "title": "Introduction",
-                "override-style":{
-                    "height":"auto"
-                },
-                "dynamic-children": [
-                    {
-                        "title":"All-in-one page",
-                        "display-type":"description-card",
-                        "withImg":true,
-                        "markdown":true
-                    },
-                    {
-                        "title":"All-in-one page",
-                        "display-type":"description-card",
-                        "direction":"right",
-                        "withImg":true,
-                        "markdown":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "page":"Printable/Digital Graphics Design",
         "project": true,
         "category":"design",
@@ -541,13 +496,70 @@
                         "display-type":"description-card",
                         "withImg":true,
                         "markdown":true
+                    }
+                ]
+            },
+            {
+                "title": "Does this meet your needs?",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Interior Decor",
+                        "display-type":"text"
                     },
                     {
-                        "title":"All-in-one page",
-                        "display-type":"description-card",
-                        "direction":"right",
-                        "withImg":true,
-                        "markdown":true
+                        "title":"Packaging",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Publications",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Marketing Collaterals",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Point of Sale Displays",
+                        "display-type":"text"
+                    },
+                    {
+                        "title":"Trade Shows and Events",
+                        "display-type":"text"
+                    }
+                ]
+            },
+            {
+                "title": "Process milestone",
+                "override-style":{
+                    "height":"auto"
+                },
+                "dynamic-children": [
+                    {
+                        "title":"Pitch",
+                        "milestone":"1",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Agreement",
+                        "milestone":"2",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Execute",
+                        "milestone":"3",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Hand-off",
+                        "milestone":"5",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
                     }
                 ]
             }
@@ -636,14 +648,8 @@
                         "display-type":"progress-tracker"
                     },
                     {
-                        "title":"Design",
+                        "title":"Execute",
                         "milestone":"3",
-                        "fixedWidth":44,
-                        "display-type":"progress-tracker"
-                    },
-                    {
-                        "title":"Develop",
-                        "milestone":"4",
                         "fixedWidth":44,
                         "display-type":"progress-tracker"
                     },
