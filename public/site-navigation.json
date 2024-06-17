@@ -35,7 +35,7 @@
             },
             {
                 "display-type":"feature-card",
-                "feature-page":"Online store"
+                "feature-page":"Real-time web app"
             },
             {
                 "display-type":"feature-card",
@@ -97,7 +97,7 @@
             },
             {
                 "display-type":"catalogue",
-                "feature-page":"Printable/Digital Graphics Design"
+                "feature-page":"Real-time web app"
             },
             {
                 "display-type":"catalogue",
@@ -171,6 +171,7 @@
     "page":"Single-page website",
     "project": true,
     "category":"Development",
+    "imgExt":"svg",
     "demoUrl":"https://google.com",
     "dynamic-children": [
         {
@@ -195,6 +196,7 @@
                     "title":"Definition",
                     "display-type":"description-card",
                     "withImg":true,
+                    "imgExt":"svg",
                     "markdown":true
                 }
             ]
@@ -263,6 +265,7 @@
     "page":"Full-stack web app",
     "project": true,
     "category":"Development",
+    "imgExt":"svg",
     "demoUrl":"https://fullstackapp.thanhquach.tech",
     "dynamic-children": [
         {
@@ -287,6 +290,7 @@
                     "title":"Definition",
                     "display-type":"description-card",
                     "withImg":true,
+                    "imgExt":"svg",
                     "markdown":true
                 }
             ]
@@ -367,6 +371,7 @@
         "page":"Online store",
         "project": true,
         "category":"Development",
+        "imgExt":"svg",
         "demoUrl":"https://google.com",
         "dynamic-children": [
             {
@@ -391,6 +396,7 @@
                         "title":"Definition",
                         "display-type":"description-card",
                         "withImg":true,
+                        "imgExt":"svg",
                         "markdown":true
                     }
                 ]
@@ -468,9 +474,10 @@
         ]
     },
     {
-        "page":"Printable/Digital Graphics Design",
+        "page":"Real-time web app",
         "project": true,
         "category":"design",
+        "imgExt":"svg",
         "demoUrl":"https://google.com",
         "dynamic-children": [
             {
@@ -481,7 +488,7 @@
             },
             "dynamic-children": [
                 {
-                    "title":"Printable/Digital Graphics Design",
+                    "title":"Real-time web app",
                     "display-type":"banner"
                 }
             ]},
@@ -495,6 +502,7 @@
                         "title":"Definition",
                         "display-type":"description-card",
                         "withImg":true,
+                        "imgExt":"svg",
                         "markdown":true
                     }
                 ]
@@ -506,27 +514,27 @@
                 },
                 "dynamic-children": [
                     {
-                        "title":"Interior Decor",
+                        "title":"Immediate Feedback",
                         "display-type":"text"
                     },
                     {
-                        "title":"Packaging",
+                        "title":"Increased Engagement",
                         "display-type":"text"
                     },
                     {
-                        "title":"Publications",
+                        "title":"Efficiency and Productivity",
                         "display-type":"text"
                     },
                     {
-                        "title":"Marketing Collaterals",
+                        "title":"Better Communication",
                         "display-type":"text"
                     },
                     {
-                        "title":"Point of Sale Displays",
+                        "title":"Scalability",
                         "display-type":"text"
                     },
                     {
-                        "title":"Trade Shows and Events",
+                        "title":"Data Accuracy",
                         "display-type":"text"
                     }
                 ]
@@ -550,8 +558,14 @@
                         "display-type":"progress-tracker"
                     },
                     {
-                        "title":"Execute",
+                        "title":"Design",
                         "milestone":"3",
+                        "fixedWidth":44,
+                        "display-type":"progress-tracker"
+                    },
+                    {
+                        "title":"Develop",
+                        "milestone":"4",
                         "fixedWidth":44,
                         "display-type":"progress-tracker"
                     },
@@ -569,6 +583,7 @@
         "page":"UX analysis",
         "project": true,
         "category":"design",
+        "imgExt":"svg",
         "demoUrl":"https://google.com",
         "dynamic-children": [
             {
@@ -593,6 +608,7 @@
                         "title":"Definition",
                         "display-type":"description-card",
                         "withImg":true,
+                        "imgExt":"svg",
                         "markdown":true
                     }
                 ]

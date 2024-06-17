@@ -34,7 +34,7 @@ return (
             'left':'col-xxl-4 col-xl-5 order-3 ms-md-5 ms-sm-0',
             'right':'col-xxl-4 col-xl-5 me-md-5 me-sm-0'
         }[section.direction] + " text-info " + (isMobile&&" text-center h-25")}>
-            {section.title&&<h1 className='text-silver'>{section.title}</h1>}
+            {section.title&&<h1 className='text-secondary'>{section.title}</h1>}
             {section['dynamic-text']&&<TypeStrings>{section['dynamic-text']}</TypeStrings>}
         </div>
     </div>

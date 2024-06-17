@@ -50,7 +50,7 @@ return(
         <ToggleButton
             key={index}
             type="radio"
-            className={'border-0 transition-ease secondary-font '+(radioValue === radio?'bg-ocean':'bg-dark-matte link-info')}
+            className={'border-0 transition-ease secondary-font '+(radioValue === radio?'bg-primary':'bg-dark-matte link-info')}
             onClick={() => setRadioValue(radio)}
           >
             {toTitleCase(radio)}

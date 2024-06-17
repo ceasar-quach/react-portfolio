@@ -1,0 +1,1 @@
+A real-time web application provides immediate updates to the user interface by pushing data changes from the server as they happen. Examples include chat apps, collaborative tools, live sports scores, and stock trading platforms.

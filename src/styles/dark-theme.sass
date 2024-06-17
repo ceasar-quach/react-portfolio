@@ -1,10 +1,21 @@
-$bg-ocean: linear-gradient(0deg, rgba(43,56,143,1) 0%, rgba(0,173,238,1) 100%)
-$bg-silver: linear-gradient(0deg, rgba(102,103,102,1) 0%, rgba(97,98,99,1) 24%, rgba(255,255,255,1) 53%, rgba(179,180,183,1) 77%, rgba(115,115,119,1) 100%)
+:root
+    --primary-gradient: linear-gradient(0deg, rgba(43,56,143,1) 0%, rgba(0,173,238,1) 100%)
+    --secondary-gradient: linear-gradient(0deg, rgba(102,103,102,1) 0%, rgba(97,98,99,1) 24%, rgba(255,255,255,1) 53%, rgba(179,180,183,1) 77%, rgba(115,115,119,1) 100%)
+    --off-dark: #e4e4e4
+    --off-white: #181818
+    --primary-gradient-start: rgba(43,56,143,1)
+    --primary-gradient-end: rgba(0,173,238,1)
+    --secondary-gradient-start: rgba(255,255,255,1)
+    --secondary-gradient-end: rgba(115,115,119,1)
+    --shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%)
+
+$bg-primary: var(--primary-gradient)
+$bg-secondary: var(--secondary-gradient)
 
 $fg-on-dark-bg: #fff
 $fg-on-light-bg: #000
 
-$font-color-on-dark: #e4e4e4
-$font-color-on-light: #181818
+$font-color-on-dark: var(--off-dark)
+$font-color-on-light: var(--off-white)
 
 $layout-breakpoint-medium: 768px

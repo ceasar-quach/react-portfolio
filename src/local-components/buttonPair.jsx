@@ -17,7 +17,7 @@ return(
             {localLabel??"Read description"}
         </Link>}
         {demoUrl&&<Link to={demoUrl} target="_blank">
-            <Button className="bg-ocean border-0 rounded-3"><span>View Demo</span></Button>
+            <Button className="bg-primary border-0 rounded-3"><span>View Demo</span></Button>
         </Link>}
     </div>
     )

@@ -19,7 +19,7 @@ export default function Banner (props) {
                 localLabel="Back"
             />
             }
-            <h2 className="text-silver m-0 col-auto text-end align-self-end">{section.title}</h2>
+            <h2 className="text-secondary m-0 col-auto text-end align-self-end">{section.title}</h2>
             </div>
         </div>
     )

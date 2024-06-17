@@ -34,7 +34,7 @@ export default function Index (props) {
             <div 
                 className='col-xl col-md-12 p-4 text-light w-100'>
                 <div className='bg-dark-matte h-100 p-4 drop-shadow rounded-3'>
-                    <h3 className='text-silver'>{section.title}</h3>
+                    <h3 className='text-secondary'>{section.title}</h3>
                     <Markdown children={markdownContent}/>
                 </div>
             </div>
